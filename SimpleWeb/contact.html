@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Contact Us</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="icon" href="images/nicon.png" type="image/jpg" sizes="16x16">
+</head>
+
+<body>
+    <div id="wraper">
+        <header>
+            <h1>Dowry Nursery, <br> A Real Partner For Gardening Lovers</h1>
+            <div class="logo">
+                <img src="images/nurseryLogo.png" alt="Dowry Nursery Logo" title="Dowry Nursery Logo">
+            </div>
+            <img src="images/nativeheader.jpg" alt="Native Plant 1" title="Native Plant 1" id="banner">
+            <!--Navigation Menu-->
+            <nav class="ref1">
+                <a href="home.html">Home</a>
+                <a href="plants.html">Plants</a>
+                <a href="soils.html">Soils</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </header>
+        <main class="contact">
+            <h2>Contact Us</h2>
+            <h4>Dowry Nursery</h4>
+            <p>Barnard CCt. Florey</p>
+            <p>ACT, 2615</p>
+            <h4>Please fill and submit this form to us...</h4>
+            <form action="mailto:dowrey_nursery@gmail.com" method="POST">
+                <fieldset>
+                    <legend>Your Details</legend>
+                    <div class="left">
+                        <label for="fname">First name:</label> <label for="fname" id="star">*</label><br>
+                        <input type="text" id="fname" name="fname" required><br>
+                        <label for="lname">Last name:</label> <label for="lname" id="star">*</label><br>
+                        <input type="text" id="lname" name="lname" required><br>
+                        <label for="email">Email address:</label> <label for="email" id="star">*</label><br>
+                        <input type="text" id="email" name="email" required><br><br>
+                        <div>
+                            <p2 id="star">*</p2>
+                            <p2>This field is required</p2>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <label for="phone">Phone:</label><br>
+                        <input type="text" id="phone" name="phone"><br>
+                        <label for="homeaddress">Address:</label><br>
+                        <input type="text" id="homeaddress" name="homeaddress"><br>
+                        <label for="postcode">Postcode:</label><br>
+                        <input type="text" id="postcode" name="postcode"><br><br>
+                    </div>
+                </fieldset> <br> &nbsp; <fieldset>
+                    <legend>Additional information and comments</legend>
+                    <div class="left">
+                        <h5>Choose your favorite products or services from us:</h5>
+                        <input type="checkbox" name="plants" id="plants">
+                        <label for="plants">Plants</label><br>
+                        <input type="checkbox" name="soils" id="soils">
+                        <label for="soils">Soils and other products</label><br>
+                        <input type="checkbox" name="training" id="training">
+                        <label for="training">Training program</label><br>
+                        <input type="checkbox" name="design" id="design">
+                        <label for="design">Garden design</label> <br>
+                        <input type="checkbox" name="delivery" id="delivery">
+                        <label for="delivery">Delivery Service</label> <br>
+                        <input type="checkbox" name="maintenance" id="maintenance">
+                        <label for="maintenance">Maintenance</label> <br> <br>
+                        <div>
+                            <label for="comment">Your comments:</label><label for="comment" id="star">*</label><br>
+                            <textarea id="comment" name="comment" required
+                                style="height: 70px; width: 300px;"></textarea>
+                        </div> &nbsp; <div>
+                            <p2 id="star">*</p2>
+                            <p2>This field is required</p2>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <h5>How did you find us:</h5>
+                        <input type="radio" name="finder" value="Google">Google <br>
+                        <input type="radio" name="finder" value="Referral">Referral <br>
+                        <input type="radio" name="finder" value="Linked">Link from another site <br>
+                        <input type="radio" name="finder" value="Facebook">Facebook <br>
+                        <input type="radio" name="finder" value="Other">other
+                    </div>
+                </fieldset> <br>
+                <div>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </div>
+            </form>
+        </main>
+        <br> <br>
+        <footer>
+            <img src="images/plantFooter4.png" alt="plantFooter" title="Native Plant for footer">
+            <div id="pfooter">
+                <p>All images remain the property of the original nursery.</p>
+                <p>@update: 30 November 2021</p>
+                <a href="contact.html" style="font-size:xx-large;">Contact Us</a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
